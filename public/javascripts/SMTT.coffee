@@ -2,7 +2,7 @@
 	init: ->
 		SMTT.currentSlide = 1
 		SMTT.isMaster = false
-		SMTT.socket = io.connect("http://localhost:7777")
+		SMTT.socket = io.connect("http://calmlycoding:7777")
 		SMTT.bindListeners()
 		$(".slide").hide()
 		$("#slide-1").show()
