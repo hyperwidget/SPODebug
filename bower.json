@@ -1,0 +1,24 @@
+{
+  "name": "Show Me The Thing",
+  "version": "3",
+  "homepage": "https://rawkamatic.github.com/showmethething",
+  "authors": [
+    "Hunter Jansen <rawkamatic@gmail.com>"
+  ],
+  "description": "A node based, html/js powered presentation platform",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "latest",
+    "jquery": "latest",
+    "jquery-ui": "latest",
+    "jquery-mobile-bower": "latest",
+    "animate-css": "latest"
+  }
+}
